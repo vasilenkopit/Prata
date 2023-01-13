@@ -101,9 +101,9 @@ int main(int argc, char* argv[])
     Exsample6();
     //Exsample7();
     Exsample8();
-    Exsample9();
 run:
-    ExsampleSort();
+    Exsample9();
+    //ExsampleSort();
     //Exsample10();
     //Exsample11();
     //Exsample12();

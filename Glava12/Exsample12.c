@@ -556,6 +556,7 @@ int Exsample9(void)
     do
     {
         wodrsarray();
+        getchar();
         printf("\nЕщё разок?(y/n или д/н):");
         //ch1=getchar();
         scanf_s("%c",&ch,1);
@@ -570,20 +571,35 @@ int Exsample9(void)
     printf("\nКонец программы\n");
     return 0;
 }
+#define MAXWRDS 100         // макс число слов
+#define MAXLWRD 20          // МАКС длина слова
 void wodrsarray(void) {
-    int nwords,l;
-    char* pwords[100];
-    char word[20];
-    printf("Колличество слов(<100):"INPUT3);
-    scanf_s("%d", &nwords);
-    //pwords = (char**)malloc(nwords * sizeof(char*));
-    printf("Введите %d слов.\n:"INPUT3, nwords);
+    int nwords,l,status;
+    char** pwords;
+    char word[21];
+    bool ok = false;
+    do {
+        ok = true;
+        printf("Колличество слов(<100):"INPUT3);
+        scanf_s("%d", &nwords);
+        if (nwords<1 || nwords>MAXWRDS) {
+            printf("\033[41;30mОшибка!\033[0m Число слов д.б <%d и >1.\n", MAXWRDS);
+            ok = false;
+        }
+    } while (!ok);
+    pwords = (char**)malloc(nwords * sizeof(char*));
+    printf("Введите %d слов(два Enter завершит ввод).\n:"INPUT3, nwords);
     for (int i = 0; i < nwords; i++) {
         word[0] = '\0';
-        scanf_s("%s", word,20);
-        if (l=strlen(word) > 0) {
-            pwords[i] = (char*)malloc(l+1);
-            strcpy_s(pwords[i],l+1, word);
+        status = scanf_s("%s", word,20);
+        l = strlen(word);
+        if (status >0 &&  l> 0) {
+            pwords[i] = (char*)malloc(l+20);
+            strcpy_s(pwords[i],l+10, word);
+        }
+        else {
+            nwords = i;
+            break;
         }
     }
     wordsout(pwords, nwords);
