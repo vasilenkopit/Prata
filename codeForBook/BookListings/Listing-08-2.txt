@@ -1,0 +1,11 @@
+/* echo_eof.c†Ч повтор€ет на экране ввод до достижени€ конца файла */
+#include <stdio.h>
+int main(void)
+{
+    int ch;
+
+    while ((ch = getchar()) != EOF)
+        putchar(ch);
+
+    return 0;
+}

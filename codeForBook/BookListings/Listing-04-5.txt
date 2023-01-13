@@ -1,0 +1,17 @@
+// defines.c -- использует именованные константы из файла limit.h и тип float.
+#include <stdio.h>
+#include <limits.h>    // пределы дл€ целых чисел
+#include <float.h>     // пределы дл€ чисел с плавающей зап€той
+int main(void)
+{
+    printf("Ќекоторые пределы чисел дл€ данной системы:\n");
+    printf("Ќаибольшее значение типа int: %d\n", INT_MAX);
+    printf("Ќаименьшее значение типа long long: %lld\n", LLONG_MIN);
+    printf("¬ данной системе один байт = %d битов.\n", CHAR_BIT);
+    printf("Ќаибольшее значение типа double: %e\n", DBL_MAX);
+    printf("Ќаименьшее нормализованное значение типа float: %e\n", FLT_MIN);
+    printf("“очность значений типа float = %d знаков\n", FLT_DIG);
+    printf("–азница между 1.00 и минимальным значением float, которое больше 1.00 = %e\n", FLT_EPSILON);
+
+    return 0;
+}

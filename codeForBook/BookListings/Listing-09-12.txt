@@ -1,0 +1,24 @@
+/* loccheck.c -- проверка дл€ вы€снени€, где хран€тс€ переменные */
+#include <stdio.h>
+void mikado(int);                       /* объ€вление функции */
+int main(void)
+{
+    int pooh = 2, bah = 5;              /* локальные дл€ main() */
+
+    printf("¬нутри main() pooh = %d и &pooh = %p\n",
+            pooh, &pooh);
+    printf("¬нутри main() bah = %d и &bah = %p\n",
+            bah, &bah);
+    mikado(pooh);
+
+    return 0;
+}
+
+void mikado(int bah)                    /* определение функции */
+{
+    int pooh = 10;                      /* локальна€ дл€ mikado() */
+    printf("¬нутри mikado() pooh = %d и &pooh = %p\n",
+            pooh, &pooh);
+    printf("¬нутри mikado() bah = %d и &bah = %p\n",
+            bah, &bah);
+}

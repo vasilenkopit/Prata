@@ -1,0 +1,16 @@
+// sweetie1.c -- цикл со счетчиком
+#include <stdio.h>
+int main(void)
+{
+    const int NUMBER = 22;
+    int count = 1;                      // инициализаци€
+
+    while (count <= NUMBER)             // проверка
+    {
+        printf("Ѕудь моим другом!\n");  // действие
+        count++;                        // обновление значени€ count
+    }
+
+    return 0;
+}
+

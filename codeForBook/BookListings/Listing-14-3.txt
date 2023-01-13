@@ -1,0 +1,50 @@
+// friend.c -- пример вложенной структуры
+#include <stdio.h>
+#define LEN 20
+const char * msgs[5] =
+{
+    "    Ѕлагодарю вас за чудесно проведенный вечер, ",
+    "¬ы однозначно продемонстрировали, что ",
+    "€вл€ет собою особый тип мужчины. ћы об€зательно должны встретитьс€",
+    "за восхитительным ужином с ",
+    " и весело провести врем€."
+};
+
+struct names {                      // перва€ структура
+    char first[LEN];
+    char last[LEN];
+};
+
+struct guy {                        // втора€ структура
+    struct names handle;            // вложенна€ структура
+    char favfood[LEN];
+    char job[LEN];
+    float income;
+};
+
+int main(void)
+{
+    struct guy fellow = {           // инициализаци€ переменной
+        { "Ѕилли", "Ѕонс" },
+        "запеченными омарами",
+        "персональный тренер",
+        68112.00
+    };
+
+    printf("ƒорогой %s, \n\n", fellow.handle.first);
+    printf("%s%s.\n", msgs[0], fellow.handle.first);
+    printf("%s%s\n", msgs[1], fellow.job);
+    printf("%s\n", msgs[2]);
+    printf("%s%s%s", msgs[3], fellow.favfood, msgs[4]);
+    if (fellow.income > 150000.0)
+        puts("!!");
+    else if (fellow.income > 75000.0)
+        puts("!");
+    else
+        puts(".");
+    printf("\n%40s%s\n ", " ", "ƒо скорой встречи,");
+    printf("%40s%s\n", " ", "Ўейла");
+
+    return 0;
+}
+
