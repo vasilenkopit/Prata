@@ -588,7 +588,7 @@ void wodrsarray(void) {
         }
     } while (!ok);
     pwords = (char**)malloc(nwords * sizeof(char*));
-    printf("¬ведите %d слов(два Enter завершит ввод).\n:"INPUT3, nwords);
+    printf("¬ведите %d слов(несколько F6 завершит ввод).\n:"INPUT3, nwords);
     for (int i = 0; i < nwords; i++) {
         word[0] = '\0';
         status = scanf_s("%s", word,20);
