@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mastetris", "H:\Учёба\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Glava13", "Glava13\Glava13.vcxproj", "{428B183A-A3E1-4E25-81DE-E6740EED82D5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Glava14", "Glava14\Glava14.vcxproj", "{F797642D-4222-49D6-8ADF-1C86E66E10EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -320,6 +322,22 @@ Global
 		{428B183A-A3E1-4E25-81DE-E6740EED82D5}.Release|x64.Build.0 = Release|x64
 		{428B183A-A3E1-4E25-81DE-E6740EED82D5}.Release|x86.ActiveCfg = Release|Win32
 		{428B183A-A3E1-4E25-81DE-E6740EED82D5}.Release|x86.Build.0 = Release|Win32
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|ARM.ActiveCfg = Debug|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|ARM.Build.0 = Debug|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|ARM64.ActiveCfg = Debug|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|ARM64.Build.0 = Debug|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|x64.ActiveCfg = Debug|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|x64.Build.0 = Debug|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Debug|x86.Build.0 = Debug|Win32
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|ARM.ActiveCfg = Release|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|ARM.Build.0 = Release|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|ARM64.ActiveCfg = Release|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|ARM64.Build.0 = Release|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|x64.ActiveCfg = Release|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|x64.Build.0 = Release|x64
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|x86.ActiveCfg = Release|Win32
+		{F797642D-4222-49D6-8ADF-1C86E66E10EA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

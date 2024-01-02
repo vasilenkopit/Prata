@@ -136,6 +136,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="t.dat" />
+    <None Include="t1" />
+    <None Include="t2" />
+    <None Include="t3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\printfColor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

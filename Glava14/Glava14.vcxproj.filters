@@ -15,38 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Glava13.cpp">
+    <ClCompile Include="Glava14.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Source13.c">
+    <ClCompile Include="Source14.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Exsample13.c">
+    <ClCompile Include="Exsample14.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="t.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
+    <Text Include="SoftbalList.txt" />
+    <Text Include="NameList0.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="t.dat">
+    <None Include="books.dat">
       <Filter>Файлы ресурсов</Filter>
     </None>
-    <None Include="t1">
-      <Filter>Файлы ресурсов</Filter>
-    </None>
-    <None Include="t2">
-      <Filter>Файлы ресурсов</Filter>
-    </None>
-    <None Include="t3">
-      <Filter>Файлы ресурсов</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\printfColor.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

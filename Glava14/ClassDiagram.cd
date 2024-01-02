@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="month" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Sdate" Collapsed="true">
+    <Position X="13" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="book" Collapsed="true">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NAME" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SICARD" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="name" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="student" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ball" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAAAAAAIAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="softball" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="book14" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Librari" Collapsed="true">
+    <Position X="13" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="names" Collapsed="true">
+    <Position X="16.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="guy" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAgACAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="funds" Collapsed="true">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAACAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="namect" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="namect1410" Collapsed="true">
+    <Position X="15" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="book1411" Collapsed="true">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="rect" Collapsed="true">
+    <Position X="18.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="flex" Collapsed="true">
+    <Position X="13.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="funds1413" Collapsed="true">
+    <Position X="18.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAACAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="myName" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="house" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAIABAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="lens" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bem" Collapsed="true">
+    <Position X="15" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="fullname" Collapsed="true">
+    <Position X="15" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bard" Collapsed="true">
+    <Position X="13.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="car" Collapsed="true">
+    <Position X="18.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="car::data" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Source14.c</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAACEAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gas" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAACAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="LENS" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="sorttype" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Exsample14.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="spectrurn" Collapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAEAAAAAIQAAAAAAAAAAAAIAAAAAAAAgA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="choices" Collapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Source14.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
